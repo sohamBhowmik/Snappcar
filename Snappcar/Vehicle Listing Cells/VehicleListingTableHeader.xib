@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VehicleListingTableHeader" customModule="Snappcar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8SW-HC-gOg">
+                    <rect key="frame" x="10" y="10" width="174" height="30"/>
+                    <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <segments>
+                        <segment title="NL"/>
+                        <segment title="DE"/>
+                        <segment title="DK"/>
+                        <segment title="SE"/>
+                        <segment title="" image="location"/>
+                    </segments>
+                    <color key="tintColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="countrySelected:" destination="iN0-l3-epB" eventType="valueChanged" id="CeQ-Fy-JIV"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hGz-oU-QlG">
+                    <rect key="frame" x="10" y="49" width="317" height="29"/>
+                    <segments>
+                        <segment title="Recommended"/>
+                        <segment title="Price"/>
+                        <segment title="Distance"/>
+                    </segments>
+                    <color key="tintColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="sortSelected:" destination="iN0-l3-epB" eventType="valueChanged" id="8WA-5A-A3R"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wmx-D0-BjW">
+                    <rect key="frame" x="10" y="87" width="173" height="29"/>
+                    <segments>
+                        <segment title="Ascending"/>
+                        <segment title="Descending"/>
+                    </segments>
+                    <color key="tintColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="sortOrderSelected:" destination="iN0-l3-epB" eventType="valueChanged" id="eK9-o8-aop"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="hGz-oU-QlG" firstAttribute="top" secondItem="8SW-HC-gOg" secondAttribute="bottom" constant="10" id="6Wk-qw-CgM"/>
+                <constraint firstItem="8SW-HC-gOg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="Uwd-wk-yWX"/>
+                <constraint firstItem="8SW-HC-gOg" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="VIy-Gh-3H7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="wmx-D0-BjW" secondAttribute="bottom" constant="10" id="bSW-Zc-MBO"/>
+                <constraint firstItem="hGz-oU-QlG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="ec9-9H-KLC"/>
+                <constraint firstItem="wmx-D0-BjW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="mBZ-Rz-IL1"/>
+                <constraint firstItem="wmx-D0-BjW" firstAttribute="top" secondItem="hGz-oU-QlG" secondAttribute="bottom" constant="10" id="p6I-Hh-PzW"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="countrySegment" destination="8SW-HC-gOg" id="6Ly-l8-5ZS"/>
+                <outlet property="orderSegment" destination="wmx-D0-BjW" id="4xz-YM-GC0"/>
+                <outlet property="sortSegment" destination="hGz-oU-QlG" id="88F-Ib-tYX"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="location" width="20" height="20"/>
+    </resources>
+</document>

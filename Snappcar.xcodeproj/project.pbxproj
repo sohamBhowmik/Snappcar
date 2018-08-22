@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F33B84921287C6C00966B10 /* VehicleListingCarImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33B84721287C6C00966B10 /* VehicleListingCarImageCell.swift */; };
+		0F33B84A21287C6C00966B10 /* VehicleListingCarImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F33B84821287C6C00966B10 /* VehicleListingCarImageCell.xib */; };
+		0F33B84C2128ADDF00966B10 /* VehicleListingTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33B84B2128ADDF00966B10 /* VehicleListingTableHeader.swift */; };
+		0F33B84E2128ADEB00966B10 /* VehicleListingTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F33B84D2128ADEB00966B10 /* VehicleListingTableHeader.xib */; };
+		0F33B8512128B21700966B10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33B8502128B21700966B10 /* Constants.swift */; };
+		0F33B8532128CDE200966B10 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F33B8522128CDE200966B10 /* CoreLocation.framework */; };
+		0F5498BC21286697000B3D69 /* VehicleListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5498BA21286697000B3D69 /* VehicleListingCell.swift */; };
+		0F5498BD21286697000B3D69 /* VehicleListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5498BB21286697000B3D69 /* VehicleListingCell.xib */; };
 		0FFC19112124A3EE009D0926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC19102124A3EE009D0926 /* AppDelegate.swift */; };
 		0FFC19132124A3EE009D0926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC19122124A3EE009D0926 /* ViewController.swift */; };
 		0FFC19162124A3EE009D0926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC19142124A3EE009D0926 /* Main.storyboard */; };
 		0FFC19182124A3EF009D0926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC19172124A3EF009D0926 /* Assets.xcassets */; };
 		0FFC191B2124A3EF009D0926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC19192124A3EF009D0926 /* LaunchScreen.storyboard */; };
+		0FFC19242124A45E009D0926 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC19232124A45E009D0926 /* User.swift */; };
+		0FFC19262124A4D7009D0926 /* PriceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC19252124A4D7009D0926 /* PriceInfo.swift */; };
+		0FFC19282124A536009D0926 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC19272124A536009D0926 /* Car.swift */; };
+		0FFC192A2124A6EC009D0926 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC19292124A6EC009D0926 /* Flags.swift */; };
+		0FFC192C2124A8E3009D0926 /* VehiclesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC192B2124A8E3009D0926 /* VehiclesList.swift */; };
+		0FFC192F2124A970009D0926 /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC192E2124A970009D0926 /* VehicleViewModel.swift */; };
+		0FFC19312124A992009D0926 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC19302124A992009D0926 /* Box.swift */; };
+		0FFC19342124ADFD009D0926 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC19332124ADFD009D0926 /* NetworkManager.swift */; };
+		1C99F5D0F3BD65F717941908 /* Pods_Snappcar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE552729CB8505B4878D9E2 /* Pods_Snappcar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00798337BD0A0CE2289953F4 /* Pods-Snappcar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snappcar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snappcar/Pods-Snappcar.debug.xcconfig"; sourceTree = "<group>"; };
+		0F33B84721287C6C00966B10 /* VehicleListingCarImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListingCarImageCell.swift; sourceTree = "<group>"; };
+		0F33B84821287C6C00966B10 /* VehicleListingCarImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleListingCarImageCell.xib; sourceTree = "<group>"; };
+		0F33B84B2128ADDF00966B10 /* VehicleListingTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListingTableHeader.swift; sourceTree = "<group>"; };
+		0F33B84D2128ADEB00966B10 /* VehicleListingTableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleListingTableHeader.xib; sourceTree = "<group>"; };
+		0F33B8502128B21700966B10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0F33B8522128CDE200966B10 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0F5498BA21286697000B3D69 /* VehicleListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListingCell.swift; sourceTree = "<group>"; };
+		0F5498BB21286697000B3D69 /* VehicleListingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleListingCell.xib; sourceTree = "<group>"; };
 		0FFC190D2124A3EE009D0926 /* Snappcar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snappcar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFC19102124A3EE009D0926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FFC19122124A3EE009D0926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +48,16 @@
 		0FFC19172124A3EF009D0926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FFC191A2124A3EF009D0926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FFC191C2124A3EF009D0926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FFC19232124A45E009D0926 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0FFC19252124A4D7009D0926 /* PriceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInfo.swift; sourceTree = "<group>"; };
+		0FFC19272124A536009D0926 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		0FFC19292124A6EC009D0926 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		0FFC192B2124A8E3009D0926 /* VehiclesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesList.swift; sourceTree = "<group>"; };
+		0FFC192E2124A970009D0926 /* VehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
+		0FFC19302124A992009D0926 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		0FFC19332124ADFD009D0926 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CEF10235EAC19BEA39504034 /* Pods-Snappcar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snappcar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snappcar/Pods-Snappcar.release.xcconfig"; sourceTree = "<group>"; };
+		FBE552729CB8505B4878D9E2 /* Pods_Snappcar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snappcar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F33B8532128CDE200966B10 /* CoreLocation.framework in Frameworks */,
+				1C99F5D0F3BD65F717941908 /* Pods_Snappcar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F33B84F2128B20400966B10 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0F33B8502128B21700966B10 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0F5498B92128666C000B3D69 /* Vehicle Listing Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0F5498BA21286697000B3D69 /* VehicleListingCell.swift */,
+				0F5498BB21286697000B3D69 /* VehicleListingCell.xib */,
+				0F33B84721287C6C00966B10 /* VehicleListingCarImageCell.swift */,
+				0F33B84821287C6C00966B10 /* VehicleListingCarImageCell.xib */,
+				0F33B84B2128ADDF00966B10 /* VehicleListingTableHeader.swift */,
+				0F33B84D2128ADEB00966B10 /* VehicleListingTableHeader.xib */,
+			);
+			path = "Vehicle Listing Cells";
+			sourceTree = "<group>";
+		};
 		0FFC19042124A3EE009D0926 = {
 			isa = PBXGroup;
 			children = (
 				0FFC190F2124A3EE009D0926 /* Snappcar */,
 				0FFC190E2124A3EE009D0926 /* Products */,
+				7C8D6F3CE46668901AE0F299 /* Pods */,
+				37FCB559045E743209EE6543 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +115,11 @@
 		0FFC190F2124A3EE009D0926 /* Snappcar */ = {
 			isa = PBXGroup;
 			children = (
+				0F33B84F2128B20400966B10 /* Utility */,
+				0F5498B92128666C000B3D69 /* Vehicle Listing Cells */,
+				0FFC19322124AD78009D0926 /* Service Layer */,
+				0FFC192D2124A938009D0926 /* View Model */,
+				0FFC19222124A41D009D0926 /* Models */,
 				0FFC19102124A3EE009D0926 /* AppDelegate.swift */,
 				0FFC19122124A3EE009D0926 /* ViewController.swift */,
 				0FFC19142124A3EE009D0926 /* Main.storyboard */,
@@ -64,6 +130,53 @@
 			path = Snappcar;
 			sourceTree = "<group>";
 		};
+		0FFC19222124A41D009D0926 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC192B2124A8E3009D0926 /* VehiclesList.swift */,
+				0FFC19232124A45E009D0926 /* User.swift */,
+				0FFC19252124A4D7009D0926 /* PriceInfo.swift */,
+				0FFC19272124A536009D0926 /* Car.swift */,
+				0FFC19292124A6EC009D0926 /* Flags.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0FFC192D2124A938009D0926 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC192E2124A970009D0926 /* VehicleViewModel.swift */,
+				0FFC19302124A992009D0926 /* Box.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		0FFC19322124AD78009D0926 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC19332124ADFD009D0926 /* NetworkManager.swift */,
+			);
+			path = "Service Layer";
+			sourceTree = "<group>";
+		};
+		37FCB559045E743209EE6543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F33B8522128CDE200966B10 /* CoreLocation.framework */,
+				FBE552729CB8505B4878D9E2 /* Pods_Snappcar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C8D6F3CE46668901AE0F299 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00798337BD0A0CE2289953F4 /* Pods-Snappcar.debug.xcconfig */,
+				CEF10235EAC19BEA39504034 /* Pods-Snappcar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FFC191F2124A3EF009D0926 /* Build configuration list for PBXNativeTarget "Snappcar" */;
 			buildPhases = (
+				82D6487B7840C38568D361AA /* [CP] Check Pods Manifest.lock */,
 				0FFC19092124A3EE009D0926 /* Sources */,
 				0FFC190A2124A3EE009D0926 /* Frameworks */,
 				0FFC190B2124A3EE009D0926 /* Resources */,
+				32857F1E5F97813285254ABF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +238,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FFC191B2124A3EF009D0926 /* LaunchScreen.storyboard in Resources */,
+				0F33B84E2128ADEB00966B10 /* VehicleListingTableHeader.xib in Resources */,
+				0F5498BD21286697000B3D69 /* VehicleListingCell.xib in Resources */,
 				0FFC19182124A3EF009D0926 /* Assets.xcassets in Resources */,
 				0FFC19162124A3EE009D0926 /* Main.storyboard in Resources */,
+				0F33B84A21287C6C00966B10 /* VehicleListingCarImageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32857F1E5F97813285254ABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Snappcar/Pods-Snappcar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snappcar/Pods-Snappcar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D6487B7840C38568D361AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snappcar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FFC19092124A3EE009D0926 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F33B84921287C6C00966B10 /* VehicleListingCarImageCell.swift in Sources */,
+				0FFC19312124A992009D0926 /* Box.swift in Sources */,
 				0FFC19132124A3EE009D0926 /* ViewController.swift in Sources */,
+				0FFC19342124ADFD009D0926 /* NetworkManager.swift in Sources */,
+				0FFC19262124A4D7009D0926 /* PriceInfo.swift in Sources */,
+				0FFC19282124A536009D0926 /* Car.swift in Sources */,
+				0FFC192A2124A6EC009D0926 /* Flags.swift in Sources */,
+				0F33B84C2128ADDF00966B10 /* VehicleListingTableHeader.swift in Sources */,
+				0FFC192C2124A8E3009D0926 /* VehiclesList.swift in Sources */,
+				0FFC192F2124A970009D0926 /* VehicleViewModel.swift in Sources */,
+				0F5498BC21286697000B3D69 /* VehicleListingCell.swift in Sources */,
+				0F33B8512128B21700966B10 /* Constants.swift in Sources */,
 				0FFC19112124A3EE009D0926 /* AppDelegate.swift in Sources */,
+				0FFC19242124A45E009D0926 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +449,7 @@
 		};
 		0FFC19202124A3EF009D0926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00798337BD0A0CE2289953F4 /* Pods-Snappcar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +468,7 @@
 		};
 		0FFC19212124A3EF009D0926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF10235EAC19BEA39504034 /* Pods-Snappcar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
